@@ -15,7 +15,7 @@ $ cp ../docker/laravel/.env .env
 $ chmod 777 -R storage/ 
 $ php artisan key:generate && php artisan config:cache && php artisan migrate 
 $ exit
-$ docker-compose down && docker-compose up
+$ docker-compose down && docker-compose up -d
 ```
 
 ## EC2
