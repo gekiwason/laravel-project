@@ -9,8 +9,8 @@ $ git clone https://github.com/gekiwason/laravel-project.git
 $ cd laravel-project
 $ docker-compose up -d
 $ docker-compose exec app bash
-$ composer create-project --prefer-dist "laravel/laravel=[バージョン]" [プロジェクト名]
-$ cd [プロジェクト名]
+$ composer create-project --prefer-dist "laravel/laravel=[version]" [project-name]
+$ cd [project-name]
 $ cp ../docker/laravel/.env .env
 $ chmod 777 -R storage/ 
 $ php artisan key:generate
