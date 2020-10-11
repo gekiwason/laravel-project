@@ -13,9 +13,7 @@ $ composer create-project --prefer-dist "laravel/laravel=[version]" [project-nam
 $ cd [project-name]
 $ cp ../docker/laravel/.env .env
 $ chmod 777 -R storage/ 
-$ php artisan key:generate
-$ php artisan config:cache
-$ php artisan migrate 
+$ php artisan key:generate && php artisan config:cache && php artisan migrate 
 $ exit
 $ docker-compose down && docker-compose up
 ```
