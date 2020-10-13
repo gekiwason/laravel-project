@@ -1,6 +1,7 @@
 ## Introduction
 
 Build a simple laravel development environment with docker-compose.
+*git remote set-url 
 
 ## Usage
 
